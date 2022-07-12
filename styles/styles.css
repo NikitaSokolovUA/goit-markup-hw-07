@@ -398,8 +398,7 @@ body{
 
 }
 
-.backdrop__btn--center
-{
+.backdrop__btn--center{
     margin-left: auto;
         margin-right: auto;
 }

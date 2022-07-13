@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__list {
+    @extend %list;
+    display: flex;
+    gap: $indent;
+}
+
+.header--border {
+    border-bottom: 1px solid $border-color;
+}

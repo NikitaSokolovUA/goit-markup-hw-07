@@ -1,0 +1,49 @@
+//обнуляем список
+%list {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+%link{
+    text-decoration: none;
+}
+
+%img {
+    display: block;
+    height: 100%;
+}
+
+%button {
+    display: inline-block;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+%button__basic {
+    min-width: 136px;
+    background-color: $accent-color;
+    color: $white-color;
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+%header__link{
+    @extend %link;
+        position: relative;
+        display: flex;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        color: $title-text-color;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        transition: color 250ms $transition-cubic;
+}

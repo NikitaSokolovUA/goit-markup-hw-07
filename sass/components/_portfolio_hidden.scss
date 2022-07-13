@@ -1,0 +1,40 @@
+.portfolio__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.88;
+    color: $primary-text-color;
+}
+
+.portfolio__thumb {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.portfolio__text-hidden {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
+    transform: translateY(100%);
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+
+    color: $white-color;
+    background-color: rgba(33, 150, 243, 0.9);
+
+    transition: transform 250ms $transition-cubic;
+
+    .portfolio__link:hover &,
+    .portfolio__link:focus & {
+        transform: translateY(0);
+    }
+}

@@ -16,37 +16,37 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
   </head>
   <body>
     <!--шапка-->
     <header class="header header--border container">
       <nav class="header__main-nav">
-        <a href="./index.html" lang="en" class="logo link"
+        <a href="./index.html" lang="en" class="logo"
           ><span class="logo--accent">Web</span>Studio</a
         >
         <ul class="header__list list">
           <li>
-            <a href="./index.html" class="header__nav-link link">Студия</a>
+            <a href="./index.html" class="header__nav-link">Студия</a>
           </li>
           <li>
             <a href="./portofolio.html" class="header__nav-link header__nav-link--current link"
               >Портфолио</a
             >
           </li>
-          <li><a href="" class="header__nav-link link">Контакты</a></li>
+          <li><a href="" class="header__nav-link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="header__list list">
+      <ul class="header__list">
         <li>
-          <a href="mailto:info@devstudio.com" class="header__contact-link link"
+          <a href="mailto:info@devstudio.com" class="header__contact-link"
             ><svg class="header__icon--prepend" width="16" height="12">
               <use href="./images/symbol-defs.svg#envelope"></use></svg
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:+380961111111" class="header__contact-link link">
+          <a href="tel:+380961111111" class="header__contact-link">
             <svg class="header__icon--prepend" width="10" height="16">
               <use href="./images/symbol-defs.svg#smartphone"></use>
             </svg>
@@ -61,7 +61,7 @@
       <section class="section">
         <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
-          <ul class="portfolio__list-btn list">
+          <ul class="portfolio__list-btn">
             <li><button type="button" class="button portfolio__button">Все</button></li>
             <li><button type="button" class="button portfolio__button">Веб-сайты</button></li>
             <li><button type="button" class="button portfolio__button">Приложения</button></li>
@@ -69,7 +69,7 @@
             <li><button type="button" class="button portfolio__button">Маркетинг</button></li>
           </ul>
 
-          <ul class="portfolio__list list">
+          <ul class="portfolio__list">
             <li class="item">
               <a class="portfolio__link link" href="" rel="noopener noreferrer">
                 <div class="portfolio__thumb">
@@ -93,7 +93,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio__link link" href="" rel="noopener noreferrer">
+              <a class="portfolio__link" href="" rel="noopener noreferrer">
                 <div class="portfolio__thumb">
                   <img
                     class="img"
@@ -115,7 +115,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio__link link" href="" rel="noopener noreferrer">
+              <a class="portfolio__link" href="" rel="noopener noreferrer">
                 <div class="portfolio__thumb">
                   <img
                     class="img"
@@ -138,7 +138,7 @@
             </li>
 
             <li class="item">
-              <a class="portfolio__link link" href="" rel="noopener noreferrer">
+              <a class="portfolio__link" href="" rel="noopener noreferrer">
                 <div class="portfolio__thumb">
                   <img
                     class="img"
@@ -160,7 +160,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio__link link" href="" rel="noopener noreferrer">
+              <a class="portfolio__link" href="" rel="noopener noreferrer">
                 <div class="portfolio__thumb">
                   <img
                     class="img"
@@ -182,7 +182,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio__link link" href="" rel="noopener noreferrer">
+              <a class="portfolio__link" href="" rel="noopener noreferrer">
                 <div class="portfolio__thumb">
                   <img
                     class="img"
@@ -204,7 +204,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio__link link" href="" rel="noopener noreferrer">
+              <a class="portfolio__link" href="" rel="noopener noreferrer">
                 <div class="portfolio__thumb">
                   <img
                     class="img"
@@ -226,7 +226,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio__link link" href="" rel="noopener noreferrer">
+              <a class="portfolio__link" href="" rel="noopener noreferrer">
                 <div class="portfolio__thumb">
                   <img class="img" src="./images/lab.jpg" alt="бирка" width="370" height="294" />
                   <p class="portfolio__text-hidden">
@@ -242,7 +242,7 @@
               </a>
             </li>
             <li class="item">
-              <a class="portfolio__link link" href="" rel="noopener noreferrer">
+              <a class="portfolio__link" href="" rel="noopener noreferrer">
                 <div class="portfolio__thumb">
                   <img
                     class="img"
@@ -272,12 +272,12 @@
     <footer class="footer">
       <div class="footer__container container">
         <div>
-          <a href="./index.html" lang="en" class="logo footer__logo link"
+          <a href="./index.html" lang="en" class="logo footer__logo"
             ><span class="logo--accent">Web</span>Studio</a
           >
           <address class="address">
             <p class="footer__address-text">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="list">
+            <ul class="footer__list">
               <li class="footer__item">
                 <a
                   href="mailto:info@devstudio.com"
@@ -295,7 +295,7 @@
         </div>
         <div class="footer__content">
           <h2 class="footer__title">присоединяйтесь</h2>
-          <ul class="social__list footer__list list">
+          <ul class="social__list footer__list">
             <li class="footer-item">
               <a
                 class="social__link footer__link"
@@ -308,7 +308,7 @@
                 </svg>
               </a>
             </li>
-            <li class="footer-item">
+            <li>
               <a
                 class="social__link footer__link"
                 href=""
@@ -320,7 +320,7 @@
                 </svg>
               </a>
             </li>
-            <li class="footer-item">
+            <li>
               <a
                 class="social__link footer__link"
                 href=""
@@ -332,7 +332,7 @@
                 </svg>
               </a>
             </li>
-            <li class="footer-item">
+            <li>
               <a
                 class="social__link footer__link"
                 href=""

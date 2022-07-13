@@ -1,0 +1,40 @@
+.advantage__list {
+    @extend %list;
+    display: flex;
+    gap: $indent;
+}
+
+.advantage__thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-color: $secondary-background-color;
+
+}
+
+.advantage__pic {
+    width: 70px;
+    height: 70px;
+    fill: currentColor;
+}
+
+.advantage__title {
+    margin-bottom: 10px;
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.advantage__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.71;
+}

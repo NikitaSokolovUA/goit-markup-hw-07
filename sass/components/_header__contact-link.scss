@@ -1,0 +1,15 @@
+/*связаться*/
+.header__contact-link {
+    @extend %header__link;
+    color: $primary-text-color;
+    transition: color 250ms $transition-cubic;
+
+    &:hover, &:focus {
+            color: $accent-color;
+        }
+}
+
+.header__icon--prepend {
+    margin-right: 10px;
+    fill: currentColor;
+}

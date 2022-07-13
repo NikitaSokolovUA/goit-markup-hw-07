@@ -8,13 +8,13 @@
 .checkbox__icon {
     width: 16px;
     height: 15px;
-    background-image: url(../../images/checkbox/frame.svg);
+    background-image: url(../images/checkbox/frame.svg);
 
     transition: background-image 250ms $transition-cubic;
 }
 
 .checkbox__input:checked+.checkbox__icon {
-    background-image: url(../../images/checkbox/icon-check.svg);
+    background-image: url(../images/checkbox/icon-check.svg);
 }
 
 .checkbox__txt {
